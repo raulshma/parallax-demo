@@ -24,6 +24,7 @@ function check_if_in_view() {
   }
 
 $(window).on('load', function(e) {
+  //console.log(e);
   $('.curtain-1').addClass('slide-top');
   $('.curtain-3').addClass('slide-top');
   $('.curtain-2').addClass('slide-bottom');
