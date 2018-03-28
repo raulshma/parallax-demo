@@ -23,7 +23,7 @@ function check_if_in_view() {
     });
   }
 
-$(document).ready(function() {
+$(window).on('load', function(e) {
   $('.curtain-1').addClass('slide-top');
   $('.curtain-3').addClass('slide-top');
   $('.curtain-2').addClass('slide-bottom');
