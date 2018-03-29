@@ -1,7 +1,5 @@
 var $animation_elements = $('.animation-element');
 var $window = $(window);
-$window.on('scroll resize', check_if_in_view);
-$window.trigger('scroll');
 function check_if_in_view() {
     var window_height = $window.height();
     var window_top_position = $window.scrollTop();
@@ -22,7 +20,8 @@ function check_if_in_view() {
       }
     });
   }
-
+$window.on('scroll resize', check_if_in_view);
+$window.trigger('scroll', check_if_in_view);
 $(window).on('load', function(e) {
   //console.log(e);
   $('.curtain-1').addClass('slide-top');
