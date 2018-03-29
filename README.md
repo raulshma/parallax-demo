@@ -7,4 +7,4 @@ Basic parallax demo created using:<br>
 
 ## TODO
 
-- [] Add more animations
+- [ ] Add more animations
