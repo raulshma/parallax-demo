@@ -241,24 +241,20 @@ section{
     .parallax1{
         background: url(../img/first.min.webp);
         min-height: 100vh;
-        background-size: auto;
     }
     
     .parallax2{
         background: url(../img/second.min.webp);
         min-height: 60vh;
-        background-size: auto;
     }
     
     .parallax3{
         background: url(../img/third.min.webp);
         min-height: 40vh;
-        background-size: auto;
     }
     
     .parallax4{
         background: url(../img/fourth.min.webp);
         min-height: 100vh;
-        background-size: auto;
     }
 }
