@@ -14,23 +14,43 @@ section{
     padding: 40px 70px;
 }
 
-.parallax1{
+.webp .parallax1{
     background: url(../img/first.webp);
     min-height: 100vh;
 }
 
-.parallax2{
+.webp .parallax2{
     background: url(../img/second.webp);
     min-height: 60vh;
 }
 
-.parallax3{
+.webp .parallax3{
     background: url(../img/third.webp);
     min-height: 40vh;
 }
 
-.parallax4{
+.webp .parallax4{
     background: url(../img/fourth.webp);
+    min-height: 100vh;
+}
+
+.no-webp .parallax1{
+    background: url(../img/first.jpg);
+    min-height: 100vh;
+}
+
+.no-webp .parallax2{
+    background: url(../img/second.jpg);
+    min-height: 60vh;
+}
+
+.no-webp .parallax3{
+    background: url(../img/third.jpg);
+    min-height: 40vh;
+}
+
+.no-webp .parallax4{
+    background: url(../img/fourth.jpg);
     min-height: 100vh;
 }
 
@@ -238,23 +258,43 @@ section{
         text-align: center;
     }
 
-    .parallax1{
+    .webp .parallax1{
         background: url(../img/first.min.webp);
         min-height: 100vh;
     }
     
-    .parallax2{
+    .webp .parallax2{
         background: url(../img/second.min.webp);
         min-height: 60vh;
     }
     
-    .parallax3{
+    .webp .parallax3{
         background: url(../img/third.min.webp);
         min-height: 40vh;
     }
     
-    .parallax4{
+    .webp .parallax4{
         background: url(../img/fourth.min.webp);
+        min-height: 100vh;
+    }
+    
+    .no-webp .parallax1{
+        background: url(../img/first.min.jpg);
+        min-height: 100vh;
+    }
+    
+    .no-webp .parallax2{
+        background: url(../img/second.min.jpg);
+        min-height: 60vh;
+    }
+    
+    .no-webp .parallax3{
+        background: url(../img/third.min.jpg);
+        min-height: 40vh;
+    }
+    
+    .no-webp .parallax4{
+        background: url(../img/fourth.min.jpg);
         min-height: 100vh;
     }
 }

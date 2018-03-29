@@ -7,4 +7,5 @@ Basic parallax demo created using:<br>
 
 ## TODO
 
+- [ ] Decrease loading time :imp:
 - [ ] Add more animations :wink:
