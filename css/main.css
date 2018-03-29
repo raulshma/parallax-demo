@@ -222,16 +222,39 @@ section{
     .heading{
         font-size: 250%;
     }
+
     .heading-lead{
         font-size: 100%;
         top: 49%;
     }
+
     .heading-sm{
         font-size: 170%;
     }
+
     .two-col{
         width: 100%;
         padding: 0;
         text-align: center;
+    }
+    
+    .parallax1{
+        background: url(../img/first.min.webp);
+        min-height: 100vh;
+    }
+    
+    .parallax2{
+        background: url(../img/second.min.webp);
+        min-height: 60vh;
+    }
+    
+    .parallax3{
+        background: url(../img/third.min.webp);
+        min-height: 40vh;
+    }
+    
+    .parallax4{
+        background: url(../img/fourth.min.webp);
+        min-height: 100vh;
     }
 }
