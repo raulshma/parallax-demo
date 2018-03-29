@@ -38,7 +38,7 @@ section{
     position: relative;
     opacity: 0.90;
     background-position: center;
-    background-position: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -237,24 +237,28 @@ section{
         padding: 0;
         text-align: center;
     }
-    
+
     .parallax1{
         background: url(../img/first.min.webp);
         min-height: 100vh;
+        background-size: auto;
     }
     
     .parallax2{
         background: url(../img/second.min.webp);
         min-height: 60vh;
+        background-size: auto;
     }
     
     .parallax3{
         background: url(../img/third.min.webp);
         min-height: 40vh;
+        background-size: auto;
     }
     
     .parallax4{
         background: url(../img/fourth.min.webp);
         min-height: 100vh;
+        background-size: auto;
     }
 }
