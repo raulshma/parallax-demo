@@ -10,7 +10,7 @@ body{
 }
 
 section{
-    overflow: auto;
+    overflow: hidden;
     padding: 40px 70px;
 }
 
@@ -84,7 +84,7 @@ section{
 }
 
 .dark{
-    overflow: auto;
+    overflow: hidden;
     padding: 50px 80px;
     background-color: #323232;
     color: #f2f2f2;
