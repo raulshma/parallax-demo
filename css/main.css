@@ -15,22 +15,22 @@ section{
 }
 
 .parallax1{
-    background: url(../img/first.jpg);
+    background: url(../img/first.webp);
     min-height: 100vh;
 }
 
 .parallax2{
-    background: url(../img/second.jpg);
+    background: url(../img/second.webp);
     min-height: 60vh;
 }
 
 .parallax3{
-    background: url(../img/third.jpg);
+    background: url(../img/third.webp);
     min-height: 40vh;
 }
 
 .parallax4{
-    background: url(../img/fourth.jpg);
+    background: url(../img/fourth.webp);
     min-height: 100vh;
 }
 
